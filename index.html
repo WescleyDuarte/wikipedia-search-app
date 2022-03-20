@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wikipedia Search App</title>
+
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/657px-Wikipedia-logo-v2.svg.png" alt="Wikipedia Logo">
+                <form class="search-form js-search-form">
+                    <input placeholder="Type a keyword and press Enter to search" class="search-input js-search-input" type="search" autofocus />
+                </form>
+            </header>
+
+            <div class="loading-indicator">
+                <div class="sk-chase js-spinner hidden">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+            </div>
+
+            <section class="search-results js-search-results"></section>
+        </main>
+    </body>
+</html>
